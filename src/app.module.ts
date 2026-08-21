@@ -4,6 +4,7 @@ import { CustomLoggerModule } from './shared/logger/logger.module.js';
 import { HealthModule } from './health/health.module.js';
 import { DatabaseModule } from './infrastructure/database/database.module.js';
 import { AuthModule } from './modules/auth/auth.module.js';
+import { AccountsModule } from './modules/accounts/accounts.module.js';
 
 @Module({
   imports: [
@@ -12,6 +13,7 @@ import { AuthModule } from './modules/auth/auth.module.js';
     HealthModule,
     DatabaseModule,
     AuthModule,
+    AccountsModule,
   ],
 })
 export class AppModule {}
