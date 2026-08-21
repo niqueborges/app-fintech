@@ -39,3 +39,6 @@ yarn-error.log*
 .agents/
 .claude/
 .windsurf/
+
+# Personal learning guide (not for publication)
+docs_config/
