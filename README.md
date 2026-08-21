@@ -310,14 +310,6 @@ O arquivo `.github/workflows/ci.yml` executa em cada push e pull request:
 
 ---
 
-## Documentacao
-
-- `docs_config/passo_a_passo.md`: Guia de implementacao branch a branch com especificacoes tecnicas completas.
-- `docs_config/comandos_terminal.md`: Todos os comandos e snippets de codigo usados no desenvolvimento.
-- `docs_config/arquitetura_backend_brasil_2026_completo.md`: Contexto arquitetural e comparativo entre os 4 niveis de complexidade.
-
----
-
 ## Licenca
 
 MIT
