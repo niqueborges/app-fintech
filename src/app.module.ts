@@ -6,6 +6,8 @@ import { DatabaseModule } from './infrastructure/database/database.module.js';
 import { AuthModule } from './modules/auth/auth.module.js';
 import { AccountsModule } from './modules/accounts/accounts.module.js';
 import { PixModule } from './modules/pix/pix.module.js';
+import { AuditModule } from './modules/audit/audit.module.js';
+import { NotificationsModule } from './modules/notifications/notifications.module.js';
 
 @Module({
   imports: [
@@ -16,6 +18,8 @@ import { PixModule } from './modules/pix/pix.module.js';
     AuthModule,
     AccountsModule,
     PixModule,
+    AuditModule,
+    NotificationsModule,
   ],
 })
 export class AppModule {}
