@@ -1,5 +1,6 @@
 # Dependencies
 node_modules/
+frontend/node_modules/
 
 # Environment variables & secrets
 .env
@@ -11,16 +12,15 @@ node_modules/
 dist/
 build/
 coverage/
+frontend/dist/
 
 # Generated Prisma Client
 generated/
+src/generated/
 
-# IDEs & Editor configs
+# IDEs and Editors
 .vscode/
 .idea/
-.agents/
-.claude/
-.windsurf/
 *.swp
 *.swo
 
@@ -35,4 +35,7 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-docs_config/
+# AI tools & workspace configs
+.agents/
+.claude/
+.windsurf/
